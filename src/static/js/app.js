@@ -1,6 +1,8 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+        <>
+        <h1 style={{ textAlign: "center" }}>ToDo App by Shuhei Kayawari</h1>
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
@@ -8,6 +10,7 @@ function App() {
                 </Col>
             </Row>
         </Container>
+        </>
     );
 }
 
